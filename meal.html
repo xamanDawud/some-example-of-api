@@ -8,7 +8,8 @@
     <title>I'm Hungry..!!</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <style>
-        #food-cards {
+        #food-cards,
+        #display-details {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             grid-gap: 20px;
@@ -43,6 +44,7 @@
     </header>
 
     <main>
+        <section class="container" id="display-details"></section>
         <div class="">
             <input id="input-field" type="text" />
             <button id="btn">Place</button>
