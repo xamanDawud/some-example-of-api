@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm Hungry..!!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <style>
+        #food-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+        
+        #input-field {
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            display: block;
+            width: 500px;
+            border: 1px solid darkorange;
+        }
+        
+        #btn {
+            display: block;
+            margin: auto;
+            width: 100px;
+            background-color: darkorange;
+            color: black;
+            border: none;
+            height: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center text-warning">Food For Hungry Peoples..!!</h1>
+    </header>
+
+    <main>
+        <div class="">
+            <input id="input-field" type="text" />
+            <button id="btn">Place</button>
+        </div>
+        <section id="food-cards" class="container"></section>
+    </main>
+    <script src="js/meal.js"></script>
+</body>
+
+</html>
