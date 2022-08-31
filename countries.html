@@ -12,12 +12,27 @@
             color: black;
             margin: 10px;
             padding: 10px;
-            width: 50%;
+            background-color: darkkhaki;
+            color: black;
+            border: 1px solid peru;
+            border-radius: 10px;
+        }
+        
+        #section {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
         }
     </style>
 </head>
 
 <body>
+    <section id="show-flag">
+        <h1>Country Flag</h1>
+        <img id="img" src="" alt="" />
+    </section>
     <section id="section"></section>
     <!-- scripts -->
     <script src="js/countries-res.js"></script>
